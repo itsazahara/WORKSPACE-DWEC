@@ -1,30 +1,9 @@
-// 1. Imprimir el objeto `window` completo para inspección general
-console.log("Objeto window (BOM):", window);
-// 2. Propiedades del objeto `window`
-// Propiedad 1: `window.innerWidth` - Ancho interno de la ventana
-console.log("Ancho interno de la ventana:", window.innerWidth);
-// Propiedad 2: `window.innerHeight` - Alto interno de la ventana
-console.log("Alto interno de la ventana:", window.innerHeight);
-// Propiedad 3: `window.location` - Información sobre la URL actual
-console.log("Ubicación de la URL:", window.location);
-// Propiedad 4: `window.navigator` - Información del navegador
-console.log("Información del navegador:", window.navigator);
-// Propiedad 5: `window.history` - Acceso al historial de navegación
-console.log("Historial de navegación:", window.history);
-// 3. Métodos del objeto `window`
-// Método 1: `window.alert()` - Muestra un cuadro de alerta
-window.alert("Este es un ejemplo de alerta en el BOM");
-// Método 2: `window.confirm()` - Muestra un cuadro de confirmación
-var confirmacion = window.confirm("¿Deseas continuar?");
-console.log("Respuesta de confirmación:", confirmacion);
-// Método 3: `window.open()` - Abre una nueva ventana o pestaña
-var nuevaVentana = window.open("https://www.wikipedia.com");
-console.log("Nueva ventana abierta:", nuevaVentana);
-// Método 4: `window.close()` - Cierra la ventana actual
-// Advertencia: este método solo funciona en ventanas abiertas con `window.open()`
-// if (nuevaVentana) nuevaVentana.close();
-// Método 5: `window.scrollTo()` - Desplaza la ventana a una posición específica
-window.scrollTo(0, 100);
-console.log("La ventana se desplazó 100 píxeles hacia abajo");
-// Imprimir una línea adicional para indicar que el código TypeScript ha terminado de ejecutarse
-console.log("Inspección BOM completada.");
+//PROPIEDADES Y OBJETOS
+window.onload = function () { (window.alert("Hola a todos.")); };
+window.location; //Muestra la url de la página que estás visitando actualmente
+window.navigator; //Muestra información sobre el navegador que estamos utilizando
+window.history; //Muestra el historial de navegación
+window.innerWidth; //Muestra el ancho interno de la ventana que se está visualizando
+window.innerHeight; //Muestra el alto interno de la ventana que se está visualizando
+window.document; //Muestra la referencia a la página web actualmente cargada
+window.length; //Muestra el número de frames que tiene la ventana
