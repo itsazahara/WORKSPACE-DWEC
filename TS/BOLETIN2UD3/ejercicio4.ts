@@ -2,7 +2,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const botonColor = document.getElementById("botonColor");
 
     if (botonColor) {
-        botonColor.addEventListener("click", () => {
+        botonColor .addEventListener("click", () => {
             const opcion = prompt("Selecciona un color:\n1 - Rojo\n2 - Azul\n3 - Verde");
 
             switch (opcion) {
