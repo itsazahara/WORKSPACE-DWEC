@@ -11,3 +11,4 @@ if (cambiar) {
 else {
     console.log("No realizamos nada.");
 }
+//NO SE PUEDE REALIZAR LA ACTIVIDAD PORQUE JAVASCRIPT LO HA DESACTIVADO
