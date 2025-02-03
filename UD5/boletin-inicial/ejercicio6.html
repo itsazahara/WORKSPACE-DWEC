@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="ejercicio6.js"></script>
+    <title> EJERCICIO 6 </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        section {
+            background-color: #ffffff;
+            padding: 20px;
+            border: 2px solid rgb(204, 114, 204);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        input[type="text"],
+        input[type="tel"],
+        input[type="email"] {
+            width: 90%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        #hiddenFields {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <form>
+            <input type="text" placeholder="Nombre" required><br>
+            <input type="text" placeholder="Apellidos" required><br>
+            <label><input type="checkbox" id="extraFields"> Mostrar más campos </label><br>
+            <div id="hiddenFields" style="display:none;">
+                <input type="tel" placeholder="Teléfono"><br>
+                <input type="email" placeholder="Email"><br>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>

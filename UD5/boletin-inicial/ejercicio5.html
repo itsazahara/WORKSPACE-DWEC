@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="ejercicio5.js"></script>
+    <title> EJERCICIO 5 </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        section {
+            background-color: #ffffff;
+            padding: 20px;
+            border: 2px solid pink;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        span {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: pink;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        span:hover {
+            background-color: palevioletred;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <a id="enlace" href="https://www.google.es"> Enlace a google.es </a>
+        <br>
+        <span id="activar-enlace"> Abrir enlace anterior </span>
+    </section>
+</body>
+
+</html>

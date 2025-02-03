@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="ejercicio4.js"></script>
+    <title> EJERCICIO 4</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #outer {
+            background-color: #ffffff;
+            padding: 20px;
+            border: 2px solid #4CAF50;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        #middle {
+            padding: 15px;
+            background-color: #e8f5e9;
+            border: 1px dashed #4CAF50;
+            border-radius: 5px;
+        }
+
+        #inner {
+            color: #4CAF50;
+            font-weight: bold;
+            cursor: pointer;
+            padding: 10px 15px;
+            display: inline-block;
+            background-color: #c8e6c9;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        #inner:hover {
+            background-color: #a5d6a7;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <section id="outer">
+            <p id="middle">
+                <span id="inner"> Haz click aquí </span>
+            </p>
+        </section>
+    </section>
+</body>
+
+</html>
