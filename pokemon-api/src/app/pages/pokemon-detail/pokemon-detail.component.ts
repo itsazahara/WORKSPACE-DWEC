@@ -31,14 +31,14 @@ export class PokemonDetailComponent implements OnInit {
   // Función para asignar un color aleatorio a cada tipo
   getTypeColor(typeName: string): string {
     const colors = ["#ff5733", "#33ff57", "#3357ff", "#ff33a1", "#ff8c33", "#33fff6"];
-    const index = typeName.length % colors.length; // Basado en la longitud del nombre
+    const index = typeName.length % colors.length;
     return colors[index];
   }
 
   // Función para asignar un color aleatorio a cada habilidad
   getAbilityColor(abilityName: string): string {
     const colors = ["#ff5733", "#33ff57", "#3357ff", "#ff33a1", "#ff8c33", "#33fff6"];
-    const index = abilityName.length % colors.length; // Basado en la longitud del nombre
+    const index = abilityName.length % colors.length;
     return colors[index];
   }
 }
